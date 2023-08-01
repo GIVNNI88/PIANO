@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="he" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Roland</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>M-AUDIO</h2>
+        <div class="column volume-slider">
+          <span>Volume</span
+          ><input type="range" min="0" max="1" value="1" step="any" />
+        </div>
+        <div class="column keys-checkbox">
+          <span>Show Keys</span><input type="checkbox" checked />
+        </div>
+      </header>
+      <ul class="piano-keys">
+        <li class="key white" data-key="a,ש"><span>a</span></li>
+        <li class="key black" data-key="w,׳"><span>w</span></li>
+        <li class="key white" data-key="s,ד"><span>s</span></li>
+        <li class="key black" data-key="e,ק"><span>e</span></li>
+        <li class="key white" data-key="d,ג"><span>d</span></li>
+        <li class="key white" data-key="f,כ"><span>f</span></li>
+        <li class="key black" data-key="t,א"><span>t</span></li>
+        <li class="key white" data-key="g,ע"><span>g</span></li>
+        <li class="key black" data-key="y,ט"><span>y</span></li>
+        <li class="key white" data-key="h,י"><span>h</span></li>
+        <li class="key black" data-key="u,ו"><span>u</span></li>
+        <li class="key white" data-key="j,ח"><span>j</span></li>
+        <li class="key white" data-key="k,ל"><span>k</span></li>
+        <li class="key black" data-key="o,ם"><span>o</span></li>
+        <li class="key white" data-key="l,ך"><span>l</span></li>
+        <li class="key black" data-key="p,פ"><span>p</span></li>
+        <li class="key white" data-key=";,ף"><span>;</span></li>
+      </ul>
+    </div>
+
+    <div class="bg-animation">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div id="stars4"></div>
+    </div>
+  </body>
+</html>
